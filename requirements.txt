@@ -1,0 +1,9 @@
+requests
+pandas
+pyyaml
+pyspark
+dotenv
+langchain
+langchain-community
+duckduckgo-search
+langchain-openai

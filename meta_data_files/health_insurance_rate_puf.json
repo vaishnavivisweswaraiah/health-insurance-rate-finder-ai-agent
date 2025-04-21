@@ -1,0 +1,37 @@
+{
+  "@type": "dcat:Dataset",
+  "title": "Rate PUF \u2013 PY2025",
+  "identifier": "672d5f6a-b8a7-4ebe-87f6-67db641e192d",
+  "description": "The Rate PUF (Rate-PUF) is one of the files that comprise the Health Insurance Exchange Public Use Files. The Rate-PUF contains plan-level data on rates based on an eligible subscriber\u2019s age, tobacco use, and geographic location; and family-tier rates.",
+  "accessLevel": "public",
+  "accrualPeriodicity": "R/PT1S",
+  "issued": "2024-12-10T05:00:00+00:00",
+  "modified": "2024-12-18T14:30:00+00:00",
+  "publisher": {
+    "@type": "org:Organization",
+    "name": "Center for Consumer Information and Insurance Oversight"
+  },
+  "contactPoint": {
+    "fn": "Center for Consumer Information and Insurance Oversight",
+    "hasEmail": "mailto:CMS_FEPS@cms.hhs.gov"
+  },
+  "keyword": [
+    "Rate",
+    "Exchange PUF",
+    "Marketplace PUF",
+    "PY2025"
+  ],
+  "distribution": [
+    {
+      "@type": "dcat:Distribution",
+      "format": "csv",
+      "downloadURL": "https://data.healthcare.gov/datafile/py2025/Rate_PUF.csv"
+    }
+  ],
+  "bureauCode": [
+    "009:00"
+  ],
+  "programCode": [
+    "009:000"
+  ]
+}

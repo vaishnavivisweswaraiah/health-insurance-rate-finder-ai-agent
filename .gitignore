@@ -1,0 +1,34 @@
+# Ignore downloaded JDK folders (like the one in sparkJava/)
+sparkJava/jdk-*/
+sparkJava/jdk*/
+
+# Ignore compiled class files
+*.class
+
+# Ignore build directories
+/out/
+/bin/
+/build/
+
+# Ignore IDE/editor config files
+.vscode/
+*.iml
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+#Ignore data files
+*.csv
+*.zip
+
+#Ignore env files
+*.env
