@@ -29,6 +29,3 @@ Thumbs.db
 #Ignore data files
 *.csv
 *.zip
-
-#Ignore env files
-*.env
