@@ -40,7 +40,10 @@ health-insurance-bot/
 │   └── Rate_PUF.csv           # Insurance rate data file
 ├   ├── Bronze_Rate_PUF.csv     
 ├   ├── silver_Rate_PUF.csv     
-├   ├── gold_Rate_PUF.csv     
+├   ├── gold_Rate_PUF.csv   
+├   ├── ChromaDB
+├   ├    ├── checkpoint    
+├   ├    ├── vectorstore      
 │
 ├── sparkJava/
 │   └── jdk-11.0.26+4/...      # Java JDK (downloaded manually)
