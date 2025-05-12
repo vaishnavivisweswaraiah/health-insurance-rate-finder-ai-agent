@@ -5,8 +5,8 @@
   "description": "The Rate PUF (Rate-PUF) is one of the files that comprise the Health Insurance Exchange Public Use Files. The Rate-PUF contains plan-level data on rates based on an eligible subscriber\u2019s age, tobacco use, and geographic location; and family-tier rates.",
   "accessLevel": "public",
   "accrualPeriodicity": "R/PT1S",
-  "issued": "2024-12-10T05:00:00+00:00",
-  "modified": "2024-12-18T14:30:00+00:00",
+  "issued": "2025-04-29T04:00:00+00:00",
+  "modified": "2025-05-06T18:00:00+00:00",
   "publisher": {
     "@type": "org:Organization",
     "name": "Center for Consumer Information and Insurance Oversight"
