@@ -10,8 +10,8 @@ from typing import Optional
 from pydantic import BaseModel
 import traceback
 from langchain_huggingface import HuggingFaceEmbeddings
-from src.main.vectorstore_builder import load_vectorstore
-from src.main.constants import VECTOR_STORE_DIR
+from src.backend.vectorstore_builder import load_vectorstore
+from src.backend.constants import VECTOR_STORE_DIR
 
  # : Embedding model
 embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")

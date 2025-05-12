@@ -4,6 +4,7 @@ sparkJava/jdk*/
 
 # Ignore compiled class files
 *.class
+*.pyc
 
 # Ignore build directories
 /out/
@@ -29,3 +30,6 @@ Thumbs.db
 #Ignore data files
 *.csv
 *.zip
+#Ignore env files
+*.env
+

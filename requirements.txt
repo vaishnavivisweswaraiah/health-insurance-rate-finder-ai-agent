@@ -1,5 +1,7 @@
-requests
 pandas
+numpy < 2.0.0
+sentence-transformers
+requests
 pyyaml
 pyspark
 dotenv
@@ -7,3 +9,7 @@ langchain
 langchain-community
 duckduckgo-search
 langchain-openai
+langchain-huggingface
+chromadb
+langchain-chroma
+pyarrow

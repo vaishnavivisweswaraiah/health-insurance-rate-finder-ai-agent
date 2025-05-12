@@ -9,7 +9,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from itertools import islice
 from typing import Optional
-from src.main.constants import *
+from src.backend.constants import *
 
 def process_batch(batch, chunk_size, chunk_overlap):
     text_splitter = RecursiveCharacterTextSplitter(
