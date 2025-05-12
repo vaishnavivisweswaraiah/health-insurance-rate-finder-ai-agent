@@ -25,10 +25,15 @@ agent_executor= initialize_agent(
     tools=tools,
     llm=llm,
     agent=AgentType.OPENAI_FUNCTIONS,
-    verbose=True,
+    verbose=False,
     memory=memory,
     agent_kwargs={"system_message" :"""
 You are an intelligent health insurance assistant chatbot.
+Use the following chat history to remember facts the user tells you (e.g. age, income, coverage needs):{chat_history}
+
+Always reference prior information before making assumptions.
+
+If the user has previously told you their age, use that instead of assuming
 
 Your task:
 - In user query first to look up rates and all details in the returned values using age, state, and tobacco use.
@@ -36,7 +41,7 @@ Your task:
 - If data for user specified year is not available, use the 'search' tool to get latest or required details based on user query from the web
 - Tobacco use values are in like 'No Preference', 'Tobacco User/Non-Tobacco User','NULL'  and state are present as state code like Ohio as 'OH' 
 - Validate if response is in align with the query , if not , perform the reasoning again with additional search tools
-- Output should contains all details user asked in the query
+- Output should contains all details user asked in the query also include additional plan details aswell.
 """}
 )
 
@@ -50,7 +55,7 @@ if __name__ == "__main__":
             break
         try:
             result = autonomous_agent(query)
-            print("\nResponse:\n", result)
+            print("\nResponse:\n", result['output'])
         except Exception as e:
             result = f"Agent Error: {e}"
             print("\nResponse:\n", result)
