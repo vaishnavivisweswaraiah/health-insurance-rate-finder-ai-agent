@@ -1,7 +1,7 @@
 
 import os
 # Ensure JAVA_HOME is set so Spark can initialize correctly in a fresh process.
-os.environ["JAVA_HOME"] = "/Users/vaishnavi/Desktop/Research/LLM/health-insurance-bot/sparkJava/jdk-11.0.26+4/Contents/Home"
+os.environ["JAVA_HOME"] = "/sparkJava/jdk-11.0.26+4/Contents/Home"
 os.environ["PATH"] = os.environ["JAVA_HOME"] + "/bin:" + os.environ["PATH"]
 from pyspark.sql import SparkSession
 #Initialize Spark Session
