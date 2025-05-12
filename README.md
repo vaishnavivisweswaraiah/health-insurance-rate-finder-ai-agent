@@ -31,17 +31,23 @@ This project is an intelligent health insurance assistant chatbot powered by **L
 health-insurance-bot/
 ├── backend/
 │   ├── agent_core.py          # Main chatbot logic
+├   ├── Constants.py     
 │   ├── tools.py               # LangChain tools with Spark + search
 │   ├── hib.env                # Local environment variables
+    ├── vectorstore_builder.py # RAG approach    
 │
 ├── data/
 │   └── Rate_PUF.csv           # Insurance rate data file
+├   ├── Bronze_Rate_PUF.csv     
+├   ├── silver_Rate_PUF.csv     
+├   ├── gold_Rate_PUF.csv     
 │
 ├── sparkJava/
 │   └── jdk-11.0.26+4/...      # Java JDK (downloaded manually)
 │
 ├── utils/
 │   └── dataframe_utils.py     # PySpark data reading utils
+├   ├── request_utils.py     
 │
 ├── run.sh                     # Launch script: sets Java + opens VS Code
 ├── README.md

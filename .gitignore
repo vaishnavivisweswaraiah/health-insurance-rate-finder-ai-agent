@@ -32,4 +32,5 @@ Thumbs.db
 *.zip
 #Ignore env files
 *.env
-
+#Ignore Vector store
+data/ChromaDB
