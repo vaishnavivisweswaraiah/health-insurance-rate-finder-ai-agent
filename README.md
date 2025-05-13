@@ -11,7 +11,8 @@
 # 🛡️ Health Insurance Bot
 
 This project is an intelligent health insurance assistant chatbot powered by **LangChain**, **OpenAI**, and **PySpark**. It can retrieve the latest insurance rates based on age, state, and tobacco use, and automatically fall back to a web search if local data or vector store(chroma DB) isn’t sufficient.
-Note: This is just a sample project, you can replace the existing files with your files and create your own ai-agent usecase using this
+
+**Note**: This is just a sample project, you can replace the existing files with your files and create your own ai-agent usecase using this
 
 ---
 
