@@ -118,7 +118,7 @@ To start the chatbot:
 ```bash
 python backend/agent_core.py
 ```
-
+Note: to have vector_db python script is run before running the agent_core.py
 Example queries:
 
 ```
